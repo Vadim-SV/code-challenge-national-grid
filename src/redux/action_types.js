@@ -1,0 +1,1 @@
+export  const ON_CARD_CLICK = 'ON_CARD_CLICK';
