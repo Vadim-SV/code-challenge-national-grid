@@ -11,6 +11,7 @@ const Day = (props) => {
             <h4> {props.month} </h4>
             <h4> {props.year} </h4>
            <h4>{props.date}</h4> 
+           <button onClick = {props.click}>Click me</button>
            </div>
            </div>  
        </div>

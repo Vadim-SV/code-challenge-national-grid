@@ -11,8 +11,8 @@ const CardResult = (props) => {
               <div className = 'left-container'>
               <h3>Results</h3>
               <h3>Intensity</h3>
-            <h4>Forecasted: {props.data.intensityForecasted}</h4>
-            <h4>Actual: {props.data.intensityActual}</h4>
+            <h4>Forecasted: {props.actual}</h4>
+            <h4>Actual: {props.forecast}</h4>
             
 
             </div>
